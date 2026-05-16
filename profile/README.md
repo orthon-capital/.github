@@ -16,7 +16,7 @@ The active implementation is V4, built as an Astro static site with a small Node
 | --- | --- | --- |
 | [`orthon-landing`](https://github.com/orthon-capital/orthon-landing) | Current production website. Contains the V4 Astro implementation, global settings system, content, assets, and deploy notes. | Active |
 | [`orthon-landing-archive`](https://github.com/orthon-capital/orthon-landing-archive) | Frozen V1, V2, and V3 versions. Preserves the design and engineering evolution before V4. | Archive |
-| [`orthon-design-lab`](https://github.com/orthon-capital/orthon-design-lab) | Generated imagery, vector gallery, visual experiments, processed assets, and research materials. | Research |
+| [`orthon-design-lab`](https://github.com/orthon-capital/orthon-design-lab) | Design research repository with buildable prototypes, generated assets, source captures, pipelines, and competitor screenshots. | Research |
 | [`.github`](https://github.com/orthon-capital/.github) | Organization profile and repository overview. | Metadata |
 
 ## Current Production Repository
@@ -50,10 +50,12 @@ These versions are reference material only. Production work should happen in `or
 
 It includes:
 
-- Vector and generative animation gallery.
-- Landing image concepts and processed variants.
-- Source scripts for image and motion experiments.
-- Archived V3 image sets.
+- `apps/` — buildable prototypes, including the vector gallery and recovered hero animation prototype.
+- `assets/` — generated landing concepts, final SVGs, processed outputs, and V3 visual sets.
+- `pipelines/` — asset-generation and comparison scripts.
+- `research/` — competitor and peer-firm screenshots.
+- `reference/` — source captures and phone/reference photos.
+- `docs/` — specifications and experiment notes.
 
 Selected production-ready assets should be copied into `orthon-landing` only after cleanup and optimization.
 
